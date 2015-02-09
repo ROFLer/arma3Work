@@ -16,6 +16,8 @@ _scrollText = _this select 2;
 _titleText = parseText format ["<t size='2'>%1</t><br/>%2",_titleText1,_titleText2];
 _scrollText = parseText format ["<t size='1.2'>%1 ~~~ %1 ~~~ %1 ~~~ %1 ~~~ %1 ~~~ %1 ~~~ %1 ~~~ %1 ~~~ %1 ~~~ %1</t>",_scrollText];
 
+sleep 1;
+
 [_titleText,_scrollText] spawn BIS_fnc_AAN;
 
 sleep 30;
